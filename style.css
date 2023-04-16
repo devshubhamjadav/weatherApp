@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Poppins:wght@200;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-image: url(./image/giphy.gif);
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-main {
+    width: 20vw;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.app-main>* {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255, 255, 255);
+
+}
+
+.btn {
+    background-color: #6096B4;
+    border: none;
+    /* font-size: 10px; */
+    outline: none;
+    color: white;
+    font-size: 16px;
+    /* height: 25px; */
+    border-radius: 10px;
+    padding: 5px 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+.weather-body {
+    color: white;
+    padding: 15px;
+    line-height: 25px;
+    border-radius: 10px;
+    /* background-color:#332C39; */
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-top: 20px;
+    /* height: 50vh; */
+
+}
+
+.location-details {
+    font-weight: bold;
+
+}
+
+.weather-status {
+    padding: 15px;
+}
+
+.temp {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 3);
+
+}
+
+.min-max,
+.weather {
+    font-size: 15px;
+    font-weight: 600;
+
+}
